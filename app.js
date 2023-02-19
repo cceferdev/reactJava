@@ -5,9 +5,9 @@ const nombreWithUpperCase = nombre.toUpperCase()
 console.log(nombreWithUpperCase)
 
 //pero a traves de un array (que si es mutable) se pueden hacer cosas como estas
-let list = [12, 1]
+let lista = [12, 1]
 // list.push('pedro') //el push solo empuja
-const anotherList= list.concat([45, 12]) //a concat le puedes pasar incluso otro array, pero a veces retorna en un anotherlist y es necesario definirlo asi
+const anotherList= lista.concat([45, 12]) //a concat le puedes pasar incluso otro array, pero a veces retorna en un anotherlist y es necesario definirlo asi
 console.log(anotherList[2])
 
 const info = {
